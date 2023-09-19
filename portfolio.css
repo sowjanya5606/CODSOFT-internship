@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+.body{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("C:\Users\navya\OneDrive\Desktop\single\fsad lab\lab4\Mon Aug 16 08_37_32 GMT+05_30 2021.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+nav{
+    display:flex;
+    padding:2% 3%;
+    justify-content:space-between;
+    align-items:right;
+}
+nav img{
+    width:100px;
+}
+nav img.circle{
+    border:2px solid red;
+    border-radius:50%;
+    padding:2px;
+}
+nav .header-content{
+    width:60%;
+}
+nav .header-content h1{
+text-align: left;
+font-size: 40px;
+padding:5px;
+color: green;
+}
+nav .header-content p{
+text-align: left;
+margin-left:30px;
+font-size: 15px;
+color: orangered;
+padding: 5px;
+}
+.about{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:5px;
+}
+.about img{
+    border-radius: 50%;
+    border:2px solid orangered;
+    height:auto;
+    width:20%;
+    padding:5px;
+}
+.about-content{
+    width:100%;
+    text-align: center;
+    padding: 15px;
+}
+.about-content h2{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+    color:green;
+}
+.about-content p{
+    text-align:center;
+    font-weight:bold;
+    margin:10px 0;
+    color:red;
+    justify-content: first baseline;
+}
+.skills{
+    width:100%;
+    text-align: center;
+    padding:5px;
+}
+.skills h2{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+    color:green;
+}
+.skills ul li{
+list-style: none;
+font-weight: bold;
+color:rgb(242, 33, 33);
+padding:10px;
+}
+.projects{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+.projects h2{
+    color:green;
+    font-size:600;
+    font-weight:bold;
+}
+.projects p{
+    color:orange;
+    font-size:15px;
+    font-weight:400;
+    line-height:22px;
+    padding:5px;
+}
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+}
+.project {
+flex-basis:30%;
+background-color: aliceblue;
+border-radius:15px;
+margin-bottom:3%;
+padding:15px 15px;
+display:inline-block;
+box-sizing:border-box;
+transition:0.5s;
+position:relative;
+}
+.project h4{
+    padding:10px 5px;
+    margin:30px;
+    font-size:bold;
+    color:green;
+}
+.project:hover{
+    box-shadow: 0 0 20px 3px orange;
+}
+@media(max-width:700px){
+    .row{
+    flex-direction:column;
+    }
+}
+.resume{
+    width:100%;
+    text-align: center;
+    padding: 5px;;
+}
+.resume h2{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+    padding:5px;
+    color:limegreen;
+}
+.resume p{
+    text-align:center;
+    font-weight:300;
+    margin:10px 0;
+    padding: 5px;
+    color:chocolate;
+    justify-content: first baseline;
+}
+.contact{
+    width:100%;
+    text-align: center;
+    padding: 15px;;
+}
+.contact h2{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+    color:pink;
+}
+.contact p{
+    text-align:center;
+    font-weight:300;
+    margin:10px 0;
+    color:gold;
+    justify-content: first baseline;
+}
+footer {
+    width:100%;
+    text-align: center;
+    padding: 15px;;
+}
+footer p{
+    text-align:center;
+    font-weight:300;
+    margin:10px 0;
+    color:crimson;
+    justify-content: first baseline;
+}
